@@ -1,15 +1,30 @@
-# note
+# Note
 
-這裏會寫一些整個REPO的文件結構。
+## TOC
 
+- [Directory Structure](#directory-structure)
+- [Note-Taking Philosophy](#note-taking-philosophy)
+- [Writing Guidelines](#writing-guidelines)
+- [Done Notes](#done-notes)
+  - [Systems & Virtualization](#systems--virtualization)
+  - [Server & Protocols](#server--protocols)
+  - [Windows & System Administration](#windows--system-administration)
+  - [Linux & Package Management](#linux--package-management)
+  - [Development & Tools](#development--tools)
+  - [Categorized Notes](#categorized-notes)
 
-筆記的目錄結構
-done/ 已完成筆記，不知道放哪裏可以先放這裏
-	What-is/ 存放名詞解釋，重點在原子性、不可分割
-	How-to/ 使用What-is的資料，串出應用文章
-todo/ 撰寫中筆記，靈感、想法、有趣的連接會放這裏
-README 存放筆記架構
-Tags 收攏筆記的tags
+## Directory Structure
+
+筆記的目錄結構：
+
+- `done/`：已完成筆記（暫存或歸檔）
+- `What-is/`：名詞解釋（原子性、不可分割）
+- `How-to/`：應用型文章（由名詞組合而成）
+- `todo/`：撰寫中筆記、靈感與想法
+- `README`：筆記架構說明
+- `Tags/`：標籤整理
+
+## Note-Taking Philosophy
 
 寫筆記有時候真的會怠惰，但是如果是隨手記錄，閑暇之餘在串起來可能會好很多。
 
@@ -30,10 +45,48 @@ Tags 收攏筆記的tags
 專案筆記：會有目標目的等
 關鍵字筆記：有時候在學習陌生領域，可以直接將陌生的名詞加起來，建立一個知識系統
 
-規範：
+## Writing Guidelines
+
 1. 名詞筆記最好使用英文術語，如IPMI，以後比較好鏈接。
 2. 名詞筆記最好不要超過一頁，快速簡介他是什麽、它可以做什麽？可能可以怎麽用？
 3. 應用筆記最好不要超過兩頁，説明動機，要準備什麽、怎麽做？可以在放上一些過程中遇到的問題
-4. 
 
 寫筆記可以正向寫也可以反向寫，正向的時候是因爲清楚的知道目標，這時候可以先規劃出架構與大綱。反向寫的時候是因爲不熟悉這個領域、不知道要做什麽但是想學，這時候可以先把基本名詞掌握，用到的時候就會串聯起來。
+
+## Done Notes
+
+### Systems & Virtualization
+- [How to setup WDS as PXE Boot Server on Windows Server](./done/How%20to%20setup%20WDS%20as%20PXE%20Boot%20Server%20on%20Windows%20Server.md)
+- [How to setup PXE Boot Server on Ubuntu using iPXE](./done/How%20to%20setup%20PXE%20Boot%20Server%20on%20Ubuntu%20using%20iPXE.md)
+- [How to setup iPXE](./done/How%20to%20setup%20iPXE.md)
+- [How to boot from PXE on HyperV](./done/How%20to%20boot%20from%20PXE%20on%20HyperV.md)
+- [How to enable Hyper-V on Windows Server](./done/How%20to%20enable%20Hyper-V%20on%20Windows%20Server.md)
+- [How to manage Hyper-V hosts remotely](./done/How%20to%20manage%20Hyper-V%20hosts%20remotely.md)
+- [How to enable and use RDP on Windows](./done/How%20to%20enable%20and%20use%20RDP%20on%20Windows.md)
+
+### Server & Protocols
+- [How IPMI packets work on the real server](./done/How%20IPMI%20packets%20work%20on%20the%20real%20server.md)
+- [How to decode IPMI packet](./done/How%20to%20decode%20IPMI%20packet.md)
+- [How to install HiveMQ 4.x on CentOS](./done/How%20to%20install%20HiveMQ%204.x%20on%20CentOS.md)
+
+### Windows & System Administration
+- [How to enable Hyper-V on Windows Server](./done/How%20to%20enable%20Hyper-V%20on%20Windows%20Server.md)
+- [How to force change password on Windows](./done/How%20to%20force%20change%20password%20on%20Windows.md)
+- [How to create Chocolatey package for 7-Zip](./done/How%20to%20create%20Chocolatey%20package%20for%207-Zip.md)
+
+### Linux & Package Management
+- [How to manage YUM Repositories](./done/How%20to%20manage%20YUM%20Repositories.md)
+- [How to manage YUM Repository using Git](./done/How%20to%20manage%20YUM%20Repository%20using%20Git.md)
+- [How to reduce the size of LVM partition with XFS filesystem](./done/How%20to%20reduce%20the%20size%20of%20LVM%20partition%20with%20XFS%20filesystem.md)
+- [grub 多重開機](./done/grub%20多重開機.md)
+- [如何在Ubuntu中使用pipenv管理python套件](./done/如何在Ubuntu中使用pipenv管理python套件.md)
+- [如何在Ubuntu建立Systemd Service](./done/如何在Ubuntu建立Systemd%20Service.md)
+
+### Development & Tools
+- [How to connect Github Using SSH over HTTPS](./done/How%20to%20connect%20Github%20Using%20SSH%20over%20HTTPS.md)
+- [How to Use Remote Debug in Java with Eclipse](./done/How%20to%20Use%20Remote%20Debug%20in%20Java%20with%20Eclipse.md)
+- [Git Command](./done/Git%20Command.md)
+
+### Categorized Notes
+- [What-is/](./done/What-is/) - 名詞解釋
+- [實戰Web 應用Go/](./done/實戰Web%20應用Go/) - Go 語言 Web 應用教學
