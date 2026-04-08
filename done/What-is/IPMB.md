@@ -11,8 +11,9 @@ In other words, we only need **to care about the data payload to decode the mean
 ### What is the IPMB packet format?
 
 The IPMB protocol of the data payload and the meaning of each field are shown in the figure below:
-![|340](../../../attachments/IPMB.png)
-![|340](../../../attachments/IPMB-1.png)
+<img src="https://meee.com.tw/rbiLsF1.png" width="350">
+
+<img src="https://meee.com.tw/ZtRC0RC.png" width="350">
 
 ### How to use IPMB
 
