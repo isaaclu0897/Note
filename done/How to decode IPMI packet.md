@@ -46,8 +46,9 @@ ipmitool raw 0x00 0x01
     * Byte 12: `0x6D` - Response Checksum for Byte 4-11
 
 > reference [NetFn and LUN](https://prayprogramer.wordpress.com/2015/06/02/ipmb%E9%80%9A%E8%A8%8A%E5%8D%94%E5%AE%9A%E7%AD%86%E8%A8%98/)
-> ![|250](../../attachments/How%20to%20decode%20IPMI%20packet.png)
-> ![|300](../../attachments/How%20to%20decode%20IPMI%20packet-1.png)
+> 
+> <img src="https://meee.com.tw/CoKWMe5.png" width="300">
+> <img src="https://meee.com.tw/FnEXWl1.png" width="250">
 
 ---
 
@@ -98,7 +99,7 @@ Once you have identified the IPMI device's IP address, you can use [[WireShark]]
 5. Look for the fourth-to-last packet, which should be the incoming response packet.
 
 See the screenshot below for a visual guide:
-![](../../attachments/How%20to%20decode%20IPMI%20packet-2.png)
+<img src="https://meee.com.tw/e01PopB.png">
 
 Suppose we want to know how to control the IPMI commands of a set of software today. You can send the command to the machine first, and then use wireshark to check the meaning of his packet, that is very useful.
 
